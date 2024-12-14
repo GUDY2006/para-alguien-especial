@@ -1,0 +1,111 @@
+body {
+text-align: center;
+background-color: blueviolet;
+}
+.bloque{
+    text-align: center;
+}
+.titulo{
+    text-align: center;
+}
+button{
+ 
+    background-color:cornflowerblue;
+    text-decoration:dashed;
+    color: rgba(0, 0, 0, 0.934);
+    background-color: #23e3b9;
+    padding: 25px * 25px;
+    border-radius: 20px;
+    box-shadow: 0.5rem * 1rem * 3rem;
+    text-align:left;
+    border:calc(30px);
+}
+/* Estilo del botón */
+#miBoton {
+    height: 40px;
+    width: 180px;
+    background-color: rgb(198, 54, 54);
+    color: #fff;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#miBoton:hover {
+    background-color: #2c942c; /* Cambiar a verde más oscuro al hacer hover */
+    transform: scale(1.05); /* Agrandar ligeramente al hacer hover */
+}
+
+
+h1 {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+h1 {
+    font-size: 8vw;
+    animation: fadeInOut 3s infinite; /* Animación suave */
+    animation: pulse 2s infinite; /* Pequeño efecto de pulsación */
+}
+
+button {
+    font-size: 3vw;
+    padding: 15px 30px;
+    margin-top: 30px;
+    border: none;
+    margin-left: 200px;
+    background-color: #ff3366;
+    color: white;
+    cursor: pointer;
+    border-radius: 50px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+@keyframes fadeInOut {
+    0%, 100% {
+        opacity: 0.8;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+ul#miListado {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+ul#miListado {
+    background-color: #e7a5a5;
+    border: 1px solid #e46e6e;
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #333;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+ul#miListado:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}

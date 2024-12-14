@@ -1,0 +1,24 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 80px;
+}
+
+body{
+    background-color: rgb(172, 83, 148);
+}
+
+button{
+    background-color:cornflowerblue;
+    text-decoration:dashed;
+    color: rgba(0, 0, 0, 0.934);
+    background-color: #23e3b9;
+    padding: 25px * 25px;
+    border-radius: 20px;
+    box-shadow: 0.5rem * 1rem * 3rem;
+    text-align:left;
+    border:calc(30px);
+}
+
+.titulo{
+    text-align: center;
+}

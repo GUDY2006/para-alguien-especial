@@ -1,0 +1,67 @@
+
+.h1{
+    text-align: center;
+
+}
+.foto{
+    border: 3px;
+    border-style: solid;
+    border-color: beige;
+    padding: 5px;
+}
+
+.texto-negrita{
+    font-weight:bold;
+}
+
+
+.subtitulo{
+    text-decoration: underline;
+}
+
+.titulo {
+    text-align: center;
+  }
+
+#subtitulo::first-letter{
+    font-size:x-large;
+    font-style:italic;
+    font-weight:bold;
+}
+body{
+    font-family:'Courier New', Courier, monospace;
+    background-image:url(atardecer.jpg);
+    background-size: 110%;
+    color:white;
+}
+p{
+    color: black;
+    padding: px;
+}
+
+.parrafo{
+    text-decoration:dashed;
+    color: rgba(4, 4, 3, 0.934);
+    background-color: #eedd44;
+    padding: 25px * 25px;
+    border-radius: 20px;
+    box-shadow: 0.5rem * 1rem * 3rem;
+    text-align:left;
+    border:calc(30px);
+}
+
+button{
+    background-color:cornflowerblue;
+    text-decoration:dashed;
+    color: rgba(0, 0, 0, 0.934);
+    background-color: #23e3b9;
+    padding: 25px * 25px;
+    border-radius: 20px;
+    box-shadow: 0.5rem * 1rem * 3rem;
+    text-align:left;
+    border:calc(30px);
+
+}
+
+
+
